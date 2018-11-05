@@ -1,0 +1,45 @@
+package com.jonathan;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class App {
+
+	public static void main(String[] args) {
+	
+		
+		
+		
+
+		try {
+			FileReader fileReader;
+
+			fileReader = new FileReader("/home/user/example.txt");
+
+			BufferedReader bufferedReader = new BufferedReader(fileReader);
+			String line;
+
+			while ((line = bufferedReader.readLine()) != null) {
+				
+//				Capitalize capitalize = new Capitalize();
+//				char[] characters = line.toCharArray();
+//				
+//				for(char c: characters) {
+//					line+=capitalize.capitalize(c);
+//				}
+				System.out.println(line);
+				
+			}
+			
+		}catch(FileNotFoundException e) {
+			
+		}catch(Exception e) {
+			
+		}
+		
+
+	}
+
+}

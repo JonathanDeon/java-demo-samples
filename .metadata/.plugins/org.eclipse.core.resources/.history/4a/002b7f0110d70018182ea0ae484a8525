@@ -1,0 +1,16 @@
+package com.jonathan.eh.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.jonathan.eh.model.Event;
+
+@Controller
+public class EventController {
+	@RequestMapping(value="/addEvent")
+	public String addEvent(Model model) {
+		model.addAttribute("event", new Event());
+		return "addEvent";
+	}
+}

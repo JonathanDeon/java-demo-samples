@@ -1,0 +1,22 @@
+package com.virtusa;
+
+public class Operation {
+
+	public void save(double amount) throws RuntimeException {
+		SavingsAccount savingsAccount = new SavingsAccount();
+		try {
+			savingsAccount.deposit(amount);
+			return;
+		} catch(AccountException e) {
+			amount = amount*1;
+		}
+		
+		try {
+			savingsAccount.deposit(amount);
+		 return;
+		} catch(AccountException e) {
+			throw new RuntimeException();
+		}
+		
+	}
+}

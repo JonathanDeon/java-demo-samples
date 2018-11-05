@@ -1,0 +1,6 @@
+package com.jo;
+
+public @interface ServiceConfiguration {
+	String defaultEndpoint();
+	String key();
+}

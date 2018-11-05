@@ -1,0 +1,18 @@
+package com.jonathan;
+
+public class Capitalize {
+
+	public char capitalize(char c) {
+		switch(c) {
+		case 'a':
+			return 'A';
+			
+		case 'b':
+			return 'B';
+		
+			
+		}
+		
+		return 'a';
+	}
+}

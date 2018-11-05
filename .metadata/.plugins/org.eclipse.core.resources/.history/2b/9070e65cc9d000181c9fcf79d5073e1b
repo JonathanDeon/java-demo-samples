@@ -1,0 +1,25 @@
+package com.jonathan.ems.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import com.jonathan.ems.repository.EmployeeRepository;
+import com.jonathan.ems.repository.HibernateEmployeeRepositoryImpl;
+import com.jonathan.ems.service.EmployeeService;
+import com.jonathan.ems.service.EmployeeServiceImpl;
+
+@Configuration
+public class ApplicationConfiguration {
+
+	@Bean
+	public EmployeeService getEmployeeService() {
+		EmployeeServiceImpl employeeServiceImpl = new EmployeeServiceImpl();
+		employeeServiceImpl.setEmployeeRepository(getEmployeeRepository());
+		return employeeServiceImpl;
+	}
+	
+	@Bean
+	public EmployeeRepository getEmployeeRepository() {
+		return new HibernateEmployeeRepositoryImpl();
+	}
+}

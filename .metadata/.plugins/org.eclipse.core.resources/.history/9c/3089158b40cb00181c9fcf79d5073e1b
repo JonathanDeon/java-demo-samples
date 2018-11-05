@@ -1,0 +1,18 @@
+package com.virtusa;
+
+import java.util.ArrayList;
+
+public class Application {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Rose> roses =  new RoseGarden("Frienship Rose","White",3).roses;
+		
+		
+		for(Rose rose :roses) {
+			System.out.println(rose.toString());
+		}
+
+	}
+
+}

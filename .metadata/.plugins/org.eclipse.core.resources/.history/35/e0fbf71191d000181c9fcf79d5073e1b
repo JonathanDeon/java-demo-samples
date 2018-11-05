@@ -1,0 +1,22 @@
+package samples;
+
+public class Application {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+
+class Animal{
+	public void display() {
+		System.out.println("Animal");
+	}
+}
+
+class Cat{
+	public void display() {
+		System.out.println("Cat");
+	}
+}

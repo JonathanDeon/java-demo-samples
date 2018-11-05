@@ -1,0 +1,8 @@
+package com.jonathan;
+
+public class SavingsAccount {
+
+	public void displayInterestRate() {
+		System.out.println("Savings Account : 10.5%");
+	}
+}

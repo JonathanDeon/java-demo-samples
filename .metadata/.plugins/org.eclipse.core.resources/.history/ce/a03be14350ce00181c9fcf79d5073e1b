@@ -1,0 +1,8 @@
+package com.jonathan;
+
+public class CurrentAccount {
+
+	public String toString() {
+		return "Current Account 12.5%";
+	}
+}

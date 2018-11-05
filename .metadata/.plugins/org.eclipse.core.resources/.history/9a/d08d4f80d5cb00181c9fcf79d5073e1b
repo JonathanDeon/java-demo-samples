@@ -1,0 +1,27 @@
+package com.assignment;
+
+public class Table {
+
+	public static void main(String[] args) {
+		
+		System.out.print("\t");
+		for(int header=1;header<10;header++) {
+			System.out.print("\t"+header);
+		}
+		System.out.println();
+		for(int line=1;line<100;line++) {
+			System.out.print("-");
+		}
+		
+		System.out.println();
+		for(int i=1;i<10;i++) {
+			System.out.print(i+"\t|\t");
+			for(int k=1;k<10;k++) {
+				System.out.print(k*i+"\t");
+			}
+			System.out.println();
+		}
+
+	}
+
+}

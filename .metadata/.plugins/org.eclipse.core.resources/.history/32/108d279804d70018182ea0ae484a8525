@@ -1,0 +1,43 @@
+package sa;
+
+interface Animal{
+	void sound();
+}
+
+class Cat implements Animal{
+
+	@Override
+	public void sound() {
+		// TODO Auto-generated method stub
+		System.out.println("cfdcdf");
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+public class App {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] a = {1,2,3,4};
+		int[] b = {5,6,7,8};
+		
+		int c[] = new int[8];
+		
+		for(int i=1; i<8;i++) {
+			c[i-1] = a[i/2];
+			c[i] = b[i/2];
+		}
+		
+		System.out.println(c);
+		
+	}
+
+}

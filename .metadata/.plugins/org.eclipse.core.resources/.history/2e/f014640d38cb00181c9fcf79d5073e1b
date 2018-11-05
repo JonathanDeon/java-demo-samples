@@ -1,0 +1,15 @@
+package com.virtusa;
+
+import java.util.ArrayList;
+
+public class RoseGarden {
+	public static ArrayList<Rose> roses;
+	
+	public RoseGarden() {}
+	
+	public RoseGarden(String name, String color, int nor) {
+		for(int x=0;x<nor;x++) {
+			roses.add(new Rose(color,name));
+		}
+	}
+}

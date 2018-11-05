@@ -1,0 +1,30 @@
+package com.virtusa;
+
+import java.io.IOException;
+import java.util.ArrayList;
+
+public class Application {
+
+	public static void main(String[] args) throws IOException {
+		
+//		RoseGarden roseGarden = new RoseGarden();
+//		roseGarden.addRose("red", "Lovers Rose");
+//		roseGarden.addRose("pink", "Rose");
+//		roseGarden.addRose("white", "Frienship Rose");
+//		
+//		roseGarden.getRoses();
+//		ArrayList<Rose> roses =  new RoseGarden("Frienship Rose","White",3).roses;
+//
+//		
+//		for(Rose rose :roses) {
+//			System.out.println(rose.toString());
+//		}
+		
+		Printer printer = new Printer();
+		printer.read();
+		//printer.read();
+				
+
+	}
+
+}

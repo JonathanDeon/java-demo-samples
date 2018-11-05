@@ -1,0 +1,21 @@
+package com.virtusa;
+
+import java.math.BigDecimal;
+
+public class Application {
+
+	public static void main(String[] args) {
+//		SavingsAccount savingsAccount = new SavingsAccount();
+//		savingsAccount.deposit(-10.0);
+		
+		Operation operation = new Operation();
+		operation.save(-10.0);
+		
+//		BigDecimal a = new BigDecimal(0.1);
+//		BigDecimal b = BigDecimal.valueOf(0.1);
+//		System.out.println(a);
+//		System.out.println(b);
+
+	}
+
+}

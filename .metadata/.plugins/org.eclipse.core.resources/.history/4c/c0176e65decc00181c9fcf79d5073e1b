@@ -1,0 +1,9 @@
+package com.jo;
+
+@ServiceConfiguration(defaultEndpoint="localhost:8080")
+public class Service {
+
+	public void invoke(String key) {
+		System.out.println("Key is "+key);
+	}
+}

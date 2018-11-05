@@ -1,0 +1,44 @@
+package com.jonathan;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class Application {
+
+	public static void main(String[] args) {
+		List<String> list = new ArrayList<>();
+		
+		System.out.println("Initial size : "+list.size());
+		
+		list.add("a");
+		list.add("e");
+		list.add("i");
+		list.add("o");
+		list.add("u");
+
+		System.out.println("After Adding vowels : "+list.size());
+		list.remove(3);
+		
+		System.out.println("After removing vowel : :"+list.size());
+		for(String vowel:list) {
+			System.out.println(vowel);
+		}
+		
+		Map<String, Integer> marks = new HashMap<>();
+		
+		marks.put("Jonathan", 100);
+		marks.put("Danu", 100);
+		marks.put("Amandee", 100);
+		marks.put("Malith", 100);
+		
+		for(Map.Entry<String, Integer> mark : marks.entrySet()) {
+			System.out.println("Name : "+mark.getKey()+"\tMark : "+mark.getValue());
+		}
+		
+		
+		
+	}
+
+}

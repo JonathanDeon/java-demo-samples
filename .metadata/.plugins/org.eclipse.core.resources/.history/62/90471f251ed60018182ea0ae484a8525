@@ -1,0 +1,28 @@
+package samples;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Application {
+
+	public static void main(String[] args) {
+		List<Integer> list = new ArrayList<>(100);
+		System.out.println(list.size(););  
+
+	}
+
+}
+
+class Animal extends Cat{
+	public void display() {
+		System.out.println(i);
+	}
+}
+
+class Cat{
+	
+	Integer i =9;
+	public void display() {
+		System.out.println("Cat");
+	}
+}

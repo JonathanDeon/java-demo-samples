@@ -1,0 +1,20 @@
+package com.virtusa;
+
+
+public class AccountOverDueException extends AccountException{
+
+	public AccountOverDueException(Throwable cause) {
+		super(cause);
+		// TODO Auto-generated constructor stub
+	}
+
+	/*public AccountOverDueException(String message) {
+		super(message);
+	}
+	
+	public AccountOverDueException(String message, Throwable cause) {
+		super(message,cause);
+	}*/
+	
+
+}

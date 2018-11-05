@@ -1,0 +1,8 @@
+package com.jo;
+
+public class Service {
+
+	public void invoke(String key) {
+		System.out.println("Key is "+key);
+	}
+}

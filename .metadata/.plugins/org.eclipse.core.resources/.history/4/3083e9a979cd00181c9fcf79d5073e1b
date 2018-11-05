@@ -1,0 +1,8 @@
+package com.jonathan;
+
+public class CurrentAccount {
+
+	public void displayInterestRate() {
+		System.out.println("Current Account 12.5%");
+	}
+}

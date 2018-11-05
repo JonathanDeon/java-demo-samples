@@ -1,0 +1,13 @@
+package com.jonathan.ems.service;
+import com.jonathan.ems.model.Employee;
+
+import com.jonathan.ems.repository.EmployeeRepository;
+import com.jonathan.ems.repository.HibernateEmployeeRepositoryImpl;
+
+public class EmployeeServiceImpl {
+	EmployeeRepository employeeRepository = new HibernateEmployeeRepositoryImpl();
+	
+	public List<Employee> getAllEmployees{
+		return employeeRepository.getAllEmployees();
+	}
+}

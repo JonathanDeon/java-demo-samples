@@ -1,0 +1,12 @@
+package com.virtusa;
+
+import java.rmi.AccessException;
+
+public class AccountOverDueException extends AccessException{
+
+	public AccountOverDueException(String message) {
+		super(message);
+	}
+	
+
+}

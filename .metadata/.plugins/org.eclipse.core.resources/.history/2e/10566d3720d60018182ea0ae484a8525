@@ -1,0 +1,30 @@
+package samples;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class Application {
+
+	public static void main(String[] args) {
+		Map<Integer, Student> map = new HashMap<>();
+		Student s = new Student();
+
+	}
+
+}
+
+class Animal extends Cat{
+	public void display() {
+		System.out.println(i);
+	}
+}
+
+class Cat{
+	
+	Integer i =9;
+	public void display() {
+		System.out.println("Cat");
+	}
+}

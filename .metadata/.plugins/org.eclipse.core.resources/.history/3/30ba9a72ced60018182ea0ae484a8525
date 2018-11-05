@@ -1,0 +1,17 @@
+package com.virtusa;
+
+public class AccountValidationException extends AccountException{
+
+	public AccountValidationException(Throwable cause) {
+		super(cause);
+		// TODO Auto-generated constructor stub
+	}
+
+	/*public AccountValidationException(String message) {
+		super(message);
+	}
+	
+	public AccountValidationException(String message, Throwable cause) {
+		super(message,cause);
+	}*/
+}

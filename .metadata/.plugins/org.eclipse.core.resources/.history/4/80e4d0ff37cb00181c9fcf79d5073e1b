@@ -1,0 +1,14 @@
+package com.virtusa;
+
+import java.util.ArrayList;
+
+public class RoseGarden {
+	public static ArrayList<Rose> roses;
+	
+	static {
+		roses = new ArrayList<>();
+		roses.add(new Rose("Red", "Lover Rose"));
+		roses.add(new Rose("White", "Friendship Rose"));
+		roses.add(new Rose("Pink", "Rose"));
+	}
+}

@@ -1,0 +1,9 @@
+package com.virtusa;
+
+public class Operation {
+
+	public void save(double x) {
+		SavingsAccount savingsAccount = new SavingsAccount();
+		savingsAccount.deposit(x);
+	}
+}

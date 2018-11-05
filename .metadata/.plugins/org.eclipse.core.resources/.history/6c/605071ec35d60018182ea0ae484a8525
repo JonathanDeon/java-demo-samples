@@ -1,0 +1,8 @@
+package com.jonathan;
+
+public class Capitalize {
+
+//	public String cap(String line) {
+//		//char[] = line.chars();
+//	}
+}

@@ -1,0 +1,5 @@
+package com.jonathan.ems.config;
+
+public class ApplicationConfiguration {
+
+}

@@ -1,0 +1,23 @@
+package com.jonathan.eh.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+//@RequestMapping(value="/app")
+public class ActivityController {
+	
+	@RequestMapping(value="/greeting")
+	public String getWelcomeMessage(Model model) {
+		model.addAttribute("msg","Hi Spring");
+		return "welcome";
+	}
+	
+	@RequestMapping(value="/addActivity")
+	public String getAddActivity(Model model) {
+		model.addAttribute("msg","Add activity");
+		return "addActivity";
+	}
+
+}
